@@ -6,26 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:padding="30dp"
     android:background="@drawable/login_background"
     >
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="20dp"
-        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_weight="2">
+            android:padding="70dp"
+            android:orientation="vertical">
+
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="40dp"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
                 android:src="@drawable/nepp_logo"
-                android:layout_weight="1"
                 />
+
         </LinearLayout>
 
         <LinearLayout
@@ -104,7 +101,7 @@
                 android:src="@drawable/apple_login_icon"/>
 
         </LinearLayout>
-    </LinearLayout>
+
 
 
 </LinearLayout>
